@@ -1,0 +1,32 @@
+{
+  "document_similarity": 91.2,
+  "matched_sources": [
+    {
+      "source": "ai_fundamentals.txt",
+      "similarity": 91.2
+    },
+    {
+      "source": "computer_networks.txt",
+      "similarity": 74.3
+    }
+  ],
+  "sentence_matches": [
+    {
+      "index": 0,
+      "submission_sentence": "Machine learning is a subset of artificial intelligence.",
+      "reference_sentence": "Machine learning is a subset of artificial intelligence.",
+      "source": "ai_fundamentals.txt",
+      "tfidf_similarity": 0.94,
+      "sequence_similarity": 0.96,
+      "similarity": 94.0,
+      "severity": "HIGH"
+    }
+  ],
+  "statistics": {
+    "total_sentences": 20,
+    "high_similarity_sentences": 8,
+    "moderate_similarity_sentences": 3,
+    "flagged_sentence_percentage": 40.0,
+    "sources_matched": 2
+  }
+}
