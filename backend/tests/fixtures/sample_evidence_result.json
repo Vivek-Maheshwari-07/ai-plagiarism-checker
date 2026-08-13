@@ -1,0 +1,26 @@
+{
+  "score": 71.6,
+  "risk_level": "HIGH",
+  "document_similarity": 91.2,
+  "flagged_sentence_percentage": 55.0,
+  "sources_matched": 2,
+  "highest_similarity": 94.0,
+  "top_sources": [
+    {
+      "source": "ai_fundamentals.txt",
+      "similarity": 91.2
+    },
+    {
+      "source": "computer_networks.txt",
+      "similarity": 74.3
+    }
+  ],
+  "top_evidence": [
+    {
+      "submitted_text": "Machine learning is a subset of artificial intelligence.",
+      "matched_text": "Machine learning is a subset of artificial intelligence.",
+      "source": "ai_fundamentals.txt",
+      "similarity": 94.0
+    }
+  ]
+}

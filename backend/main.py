@@ -1,10 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routes.analyze import router as analyze_router
+from routes.ai_explanation import router as ai_explanation_router
 
 app = FastAPI(
     title="Veritas AI Backend",
-    description="AI-Based Plagiarism Checker - Module 1 Document Input & Extraction",
+    description="AI-Based Plagiarism Checker API",
     version="1.0.0"
 )
 
@@ -17,15 +18,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Include routes
+# Include routers
 app.include_router(analyze_router, prefix="/api", tags=["Document Analysis"])
+app.include_router(ai_explanation_router, prefix="/api/ai", tags=["AI Explanation"])
 
 
 @app.get("/")
 def read_root():
     return {
         "status": "online",
-        "service": "Veritas AI Document Extraction API",
+        "service": "Veritas AI Backend API",
         "version": "1.0.0"
     }
 
