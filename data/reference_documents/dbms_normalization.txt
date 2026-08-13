@@ -1,0 +1,9 @@
+Database Management Systems (DBMS) serve as software frameworks for defining, constructing, manipulating, and querying structured databases. Relational Database Management Systems (RDBMS) organize data into tabular structures called relations, consisting of rows representing records and columns representing attributes.
+
+Database normalization is a systematic approach to decomposing relational schemas to minimize data redundancy and eliminate insertion, update, and deletion anomalies. Normalization relies on functional dependencies, which define relationships between attributes in a relation. An attribute set X functionally determines attribute set Y if each X-value is associated with precisely one Y-value.
+
+First Normal Form (1NF) mandates that all table fields contain atomic values, meaning entries cannot be divided into further sub-components, and that every row must be uniquely identifiable by a primary key. Second Normal Form (2NF) enforces 1NF and requires that all non-key attributes are fully functionally dependent on the entire primary key, eliminating partial key dependencies in composite primary keys.
+
+Third Normal Form (3NF) satisfies 2NF and mandates that no non-key attribute is transitively dependent on the primary key. Transitive dependency occurs when a non-key attribute depends on another non-key attribute. Boyce-Codd Normal Form (BCNF) is a stricter variant of 3NF where for every functional dependency X -> Y, X must be a super key.
+
+Transactional integrity in relational databases is governed by ACID properties: Atomicity guarantees that all operations within a transaction complete successfully or revert completely; Consistency ensures state transitions obey schema invariants; Isolation isolates concurrent execution effects; and Durability preserves committed transactions permanently even during system failures.

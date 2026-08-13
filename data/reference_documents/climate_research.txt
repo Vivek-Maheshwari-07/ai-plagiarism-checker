@@ -1,0 +1,7 @@
+Climate research investigates long-term atmospheric patterns, global ocean circulation dynamics, ecosystem impacts, and anthropogenic influences on Earth climate systems. Quantitative climate science relies on historical observational data combined with complex numerical atmospheric models to evaluate historical variations and project future climate trends.
+
+The atmospheric greenhouse effect plays a critical role in regulating planetary surface temperatures. Solar radiation passes through the atmosphere, warming Earth's surface. Infrared radiation emitted from the Earth is absorbed by greenhouse gases such as carbon dioxide, methane, nitrous oxide, and water vapor. Increased atmospheric concentrations of these gases trap additional thermal energy, leading to global warming.
+
+Glaciological and oceanographic studies record significant changes in polar ice sheets, sea ice extent, and global mean sea level rise. Thermal expansion of warming ocean waters combined with ice loss from glaciers and continental ice sheets contributes continuously to coastal vulnerabilities and marine ecosystem degradation.
+
+Mitigation strategies focus on accelerating energy transitions toward renewable energy sources including solar, wind, hydroelectric, and geothermal energy. Adaptation measures involve strengthening coastal defenses, engineering resilient agricultural crop varieties, and establishing robust early warning systems for extreme weather events.
